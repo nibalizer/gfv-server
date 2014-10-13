@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo $1
+rm /tmp/gfv
+~/get-flash-videos/get_flash_videos -f /tmp/gfv -p --player ~/video.sh "$1"
